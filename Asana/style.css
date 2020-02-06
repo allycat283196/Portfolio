@@ -1,0 +1,111 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    width: 100%; 
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    margin: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card {
+    width: 200px;
+    height: 90px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px #ccc;
+    margin: 5px;
+}
+
+.card:hover {
+    box-shadow: 3px 3px 10px #aaa;;
+    color: #796eff
+}
+.card h4 {
+    text-align: center;
+}
+
+.cards {
+    width: 100%;
+    align-content: center;
+    justify-self: stretch;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    transition: all ease-in-out 200ms;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+
+
+.card h4::before {
+    width: 100%;
+    height: 20px;
+    opacity: .5;
+    content: "";
+    position: relative;
+    display: block;
+    top: -22px;
+
+}
+
+#marketing h4::before {
+    background-color: #a4cf30 ;
+}
+
+#design h4::before {
+    background-color: purple;
+}
+
+#engineering h4::before {
+    background-color: grey;
+}
+
+#hr h4::before {
+    background-color: pink;
+}
+
+#it h4::before {
+    background-color: lightcoral;
+}
+
+#operations h4::before {
+    background-color: skyblue;
+}
+
+#cross_functional h4::before {
+    background-color: lightsalmon;
+}
+
+#product h4::before {
+    background-color: navy;
+}
+
+@media (max-width: 1039px) {
+    .cards {
+        width: 100%; 
+    }
+}
+
+@media (max-width: 710px){
+    .cards {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 476px) {
+    .card {
+        width: 100%;
+    }
+}

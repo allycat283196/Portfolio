@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <title>Alyson Create X</title>
+</head>
+<body>
+    <div id="menus">
+        <div class="head_icons">
+            <div id="search_icon" class="search_icon"><i class="fas fa-search search_icon"></i></div>
+            <div class="menu_icon"><i class="fas fa-bars"></i></div>
+        </div>
+    </div>
+
+    <div id="simpleModal" class="modal">
+        <div class="modal-content">
+            <div class="back">
+            </div>
+            <span id="searchClose" class="closeBtn">&times;</span>
+            <input class="search" type="text" name="search" placeholder= "&#xF002; Search site...">
+        </div>
+    </div>
+
+    <div id="menuModal" class="modal">
+            <div class="modal-content">
+                <div class="back">
+                </div>
+                <span id="menuClose" class="closeBtn">&times;</span>
+                <div class="links">
+                    <ul>
+                        <li>Home</li>
+                        <li>Portfolio</li>
+                        <li>Blog</li>
+                        <li>Shop</li>
+                        <li>Account</li>
+                        <li>Pages</li>
+                        <li>Components</li>
+                    </ul>
+                </div>
+                <div class="contacts">
+                    <h2>Contacts</h2>
+                    <p class="info"><i class="fas fa-map-marker-alt"></i> 1260 Broadway, New York</p>
+                    <p class="info"><i class="fas fa-phone"></i> 000 800 390 25</p>
+                    <p class="info"><i class="far fa-envelope"></i> info@example.com</p>
+                </div>
+                <div class="icons menu">
+                    <h2>Social</h2>
+                        <i id="facebook" class="brand fab fa-facebook-f"></i>
+                        <i id="instagram"class="brand fab fa-instagram"></i>
+                        <i id="twitter" class="brand fab fa-twitter"></i>
+                        <i id="blogger" class="brand fab fa-blogger-b"></i>
+                        <i id="linkedin"class="brand fab fa-linkedin-in"></i>
+                </div>
+                <!-- <input class="search" type="text" name="search" placeholder= "&#xF002; Search site..."> -->
+            </div>
+        </div>
+
+    <div class="header">
+        <div class="left_header">
+            <div class="intro">
+                <h2>Hello! <br> I am <strong> Alyson Wrigley</strong></h2>
+                <h1 class="title">UX/UI DESIGNER</h1>
+            </div>
+            <div class="nav">
+                <button class="button hire">Hire Me</button>
+                <button class="button works">
+                    See My Works
+                    <i class="arrow fas fa-angle-down"></i>
+                    <a href="#latest_works"></a>
+                </button>
+            </div>
+            <div class="icons">
+                <i id="facebook" class="brand fab fa-facebook-f"></i>
+                <i id="instagram"class="brand fab fa-instagram"></i>
+                <i id="twitter" class="brand fab fa-twitter"></i>
+                <i id="blogger" class="brand fab fa-blogger-b"></i>
+                <i id="linkedin"class="brand fab fa-linkedin-in"></i>
+            </div>
+        </div>
+        <div class="right_header">
+            <div class="photo">
+                <img src="./img/woman_border.png">
+            </div>
+        </div>
+    </div>
+    <div class="design">
+        <p>Few words about me</p>
+        <h1 class="title"><strong>Design and Craft</strong></h1>
+        <hr class="line">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Posuere lorem ipsum dolor sit amet.</p>
+        <div class="video">
+            <i id="play" class="fas fa-caret-right"></i>
+            <p>Click to watch a video about me!</p>
+        </div>
+        <div id="videoModal" class="modal">
+            <div class="modal-content">
+                <span id= "video_close" class="closeBtn">&times;</span>
+                <iframe width="620" height="440" allow="autoplay" src="https://player.vimeo.com/video/93641234"></iframe>
+                <!-- <video width="620" height="440" controls src="https://player.vimeo.com/video/93641234"></video> -->
+            </div>
+        </div> 
+    </div>
+    <div class="work">
+        <h1 class="title"><strong>How I work</strong></h1>
+        <hr class="line">
+        <div class= "cards">
+            <div id="gathering">
+                <div class="top">
+                    <div class="number">1</div>
+                    <div class="circles">
+                        <div class="circle-box">
+                            <div class="shadow">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <i class="icons far fa-address-card"></i>
+                </div>
+                <div class="info">
+                    <h5>Gathering User Data</h5>
+                    <hr class="line">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="learn">Learn More <i class="arrow fas fa-chevron-right"></i></p>
+                </div>
+            </div>
+            <div id="prototyping">
+                <div class="top">
+                    <div class="number">2</div>
+                    <div class="circles">
+                        <div class="circle-box">
+                            <div class="shadow">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <i class="icons far fa-file-image"></i>
+                </div>
+                <div class="info">
+                    <h5>Prototyping (Wireframes)</h5>
+                    <hr class="line">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="learn">Learn More <i class="arrow fas fa-chevron-right"></i></p>
+                </div>
+            </div>
+            <div id="pixel">
+                <div class="top">
+                    <div class="number">3</div>
+                    <div class="circles">
+                        <div class="circle-box">
+                            <div class="shadow">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <i class="icons far fa-object-group"></i>
+                </div>
+                <div class="info">
+                    <h5>Pixel Perfect UI Design</h5>
+                    <hr class="line">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="learn">Learn More <i class="arrow fas fa-chevron-right"></i></p>
+                </div>
+            </div>
+            <div id="develop">
+                <div class="top">
+                    <div class="number">4</div>
+                    <div class="circles">
+                        <div class="circle-box">
+                            <div class="shadow">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <i class="icons fas fa-code"></i>
+                </div>
+                <div class="info">
+                    <h5>Development (Coding)</h5>
+                    <hr class="line">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="learn">Learn More <i class="arrow fas fa-chevron-right"></i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="latest_works" class="lat_works">
+        <div class="gal">
+            <div class="title">
+                <h1 ><strong>My latest works</strong></h1>
+                <p>Hand-picked collection of my most prominent works</p>
+                <hr class="line">
+            </div>
+            <div class="gallery">
+                <div class="card_1">
+                    <div class="picture">
+                        <img src="img/macbook.jpg">
+                    </div>
+                    <div class="words">
+                        <div class="likes">
+                            <i class=" heart far fa-heart"><p>43</p></i>
+                        </div>
+                        <h4>ios App UI Design</h4>
+                        <p>Mobile Apps</p>
+                    </div>
+                </div>
+                <div class="card_2">
+                    <div class="picture">
+                        <img src="img/music.jpg">
+                    </div>
+                    <div class="words">
+                        <div class="likes">
+                            <i class="heart far fa-heart"><p>27</p></i>
+                        </div>
+                        <h4>Web App Front-End</h4>
+                        <p>Web Design</p>
+                    </div>
+                </div>
+                <div class="card_3">
+                    <div class="picture">
+                        <img src="img/twitter.jpg">
+                    </div>
+                    <div class="words">
+                        <div class="likes">
+                            <i class="heart far fa-heart"><p>116</p></i>
+                        </div>
+                        <h4>Company Brand Design</h4>
+                        <p>Branding</p>
+                    </div>
+                </div>
+                <div class="card_4">
+                    <div class="picture">
+                        <img src="img/apple.jpg">
+                    </div>
+                    <div class="words">
+                        <div class="likes">
+                            <i class="heart far fa-heart"><p>12</p></i>
+                        </div>
+                        <h4>ios App Development</h4>
+                        <p>Mobile Apps</p>
+                    </div>
+                </div>
+                <div class="card_5">
+                    <div class="picture">
+                        <img src="img/laptop_setup.jpg">
+                    </div>
+                    <div class="words">
+                        <div class="likes">
+                            <i class="heart far fa-heart"><p>8</p></i>
+                        </div>
+                        <h4>Working Space Design</h4>
+                        <p>Interior Design</p>
+                    </div>
+                </div>
+                <div class="card_6">
+                    <div class="picture">
+                        <img src="img/phone.jpg">
+                    </div>
+                    <div class="words">
+                        <div class="likes">
+                            <i class="heart far fa-heart"><p>25</p></i>
+                        </div>
+                        <h4>Apple Package Design</h4>
+                        <p>Package Design</p>
+                    </div>
+                </div>
+            </div>
+            <button class="button">
+                View All Works
+                <i class="arrow fas fa-angle-right"></i>
+            </button>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="title">
+            <h1><strong>Contact Me</strong></h1>
+            <p>I'll be glad to answer all your questions. I normally respond within 2 - 3 business days.</p>
+            <hr class="line">
+        </div>
+        <form>
+            <div class="personal_info">
+                <div class=name>
+                    <label>Your Name <id class="required"> *</id></label>
+                    <input id="name"type="text" placeholder="John Doe" required>
+                </div>
+                <div class="email">
+                    <label>Email Address <id class="required"> *</id></label>
+                    <input id="email"type="email" placeholder="johndoe@example.com" required>
+                </div>
+                <div class="subject">
+                    <label>Subject</label> <br>
+                    <input id="message_title"type="text" placeholder="Title of your message">
+                </div>
+            </div>
+            <div class="message">
+                <label>Message <id class="required"> *</id></label> <br>
+                <textarea cols="125" rows="8" type="text" placeholder="Type your message..." required></textarea>
+            </div>
+
+        <button id="submit" class="button">
+            <i class="icons mail far fa-envelope"></i>
+                <p>Send Message</p>
+                <a href="#"></a>
+        </button>
+        </form>
+        <footer>
+                <p>	&#169; All Rights Reserved. Made with <i class=" heart far fa-heart"></i> <strong> by Createx Studio</strong></p>
+                <div class="icons">
+                    <i id="facebook" class="brand fab fa-facebook-f"></i>
+                    <i id="instagram"class="brand fab fa-instagram"></i>
+                    <i id="twitter" class="brand fab fa-twitter"></i>
+                    <i id="blogger" class="brand fab fa-blogger-b"></i>
+                    <i id="linkedin"class="brand fab fa-linkedin-in"></i>
+                </div>
+        </footer>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
